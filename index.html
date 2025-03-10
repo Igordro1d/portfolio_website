@@ -83,11 +83,13 @@
           Contact Me
         </h2>
         <form action="" class="max-w-4xl mx-auto text-2xl sm:text-3xl flex flex-col items-left gap-4">
-          <label for="subject">Subject:</label>
-          <input type="text" id="subect" name="subject" required minlength="3" maxlength="60" placeholder="Your Subject" class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:bg-white dark:border-none"/>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required minlength="3" maxlength="60" placeholder="Your Name" required class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:bg-white dark:border-none"/>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required placeholder="Your Email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" autocomplete="email " class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:bg-white dark:border-none"/>
           <label for="message">Message:</label>
           <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message" required class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:bg-white dark:border-none"></textarea>
-          <button class="bg-teal-700 hover:bg-teal-600 active:bg-teal-500 text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-none">Submit</button>
+          <button class="bg-teal-700 hover:bg-teal-600 active:bg-teal-500 text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-none">Send</button>
         </form>
       </section>
 
